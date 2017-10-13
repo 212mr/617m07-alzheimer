@@ -1,0 +1,169 @@
+/*.nav-logo{*/
+    /*width: 10%;*/
+/*}*/
+
+/*.nav-logo img{*/
+    /*width: 100%;*/
+/*}*/
+
+/*font-family: 'Cormorant Garamond', serif;*/
+
+#SlideDown {
+    margin-top: 60px;
+}
+
+#NewContact {
+    background-color: rgba(0,187,225,0.2);
+    font-size: 1em;
+    display: none;
+    margin: 20px auto;
+    padding: 10px auto;
+    vertical-align: middle;
+}
+
+#NewContact form{
+    padding: 20px;
+}
+
+#NewContact input{
+    /*width: 80%;*/
+    outline: none;
+    margin: 8px auto;
+    padding: 4px auto;
+    line-height: 1.4em;
+    vertical-align: middle;
+}
+
+
+#SlideUp2 {
+    display: inline;
+    vertical-align: middle;
+    float: right;
+    font-size: 3em;
+    line-height: 1em;
+    margin-bottom: 60px;
+}
+
+#SlideUp2:hover {
+    background-color: rgba(54, 175, 255, 0.3);
+}
+
+#membersClose{
+    display: inline;
+    vertical-align: middle;
+    float: right;
+    font-size: 3em;
+    line-height: 1em;
+    margin-bottom: 60px;
+}
+
+#membersClose:hover{
+    background-color: rgba(54, 175, 255, 0.3);
+}
+
+
+
+#members {
+    display: none;
+    margin-top: 20px;
+}
+
+.introduction li{
+    list-style: none;
+    display: inline;
+    padding:0 20px;
+    font-size: 1.2em;
+}
+
+
+
+.q-big{
+    font-size: 1.6em;
+    font-family: 'Cormorant Garamond', serif;
+    margin-top: 50px;
+}
+
+.q-author {
+    float: right;
+}
+
+
+.detection {
+    position: relative;
+}
+
+.detection img{
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .introduction {
+        font-size: 0.8em;
+    }
+
+    .introduction li{
+        display: block;
+        text-align: left;
+    }
+
+    .q-big{
+        font-size: 1em;
+        margin-top: 30px;
+    }
+
+    #NewContact {
+        font-size: 0.6em;
+        margin:0;
+        padding:0;
+    }
+    #NewContact input {
+        line-height: 1.2em;
+        margin: 0;
+        padding:0;
+    }
+}
+
+
+
+dl {
+    border: none;
+    padding: 0.5em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+dt {
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: #0201c2;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+dt::after {
+    content: ":";
+}
+
+dd {
+    margin: 0;
+    padding: 0 0 0 110px;
+    color: dimgrey;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+.sacram {
+    font-family: 'Sacramento', cursive;
+}
+
+.kalam{
+    font-family: 'Kalam', cursive;
+}
+
+.portraits {
+    border: solid 2px white;
+}
