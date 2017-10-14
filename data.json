@@ -1,29 +1,36 @@
 {
   "daughter": {
+    "relationship":"daughter",
     "name": "Mengru",
     "age": "26",
     "gender": "female"
   },
 
   "testimonial1":{
-  "name": "Ted Chuck",
+    "relationship":"Family Doctor",
+    "name": "Ted Chuck",
     "age":"51",
     "phone":"123.456.7890",
-    "address":"1000 Happy Street, San Francisco 94105 CA"
+    "address":"1000 Happy Street, San Antonio 91234 CA",
+    "note": "Ted Chuck is your family doctor. He has been helping your family for over 15 years. He has all your medical records and your medical insurance information."
   },
 
   "testimonial2":{
-    "name": "",
-    "age":"",
-    "phone":"",
-    "address":""
+    "relationship":"First Son",
+    "name": "James Johnson",
+    "age":"37",
+    "phone":"999.222.3456",
+    "address":"99 Good Street, Palo Alto 91234 CA",
+    "note":"James Johnson is your first son and your main guardian. James is a software engineer in Facebook. He visits you every Saturday morning around 10 a.m. He adopted a baby-boy."
   },
 
   "testimonial3":{
-    "name": "",
-    "age":"",
-    "phone":"",
-    "address":""
+    "relationship":"First Son's Boyfriend",
+    "name": "Mike Leeton",
+    "age":"41",
+    "phone":"777.456.7890",
+    "address":"66 Ave, Sunnyvale 98765 CA",
+    "note":"Mike Leeton is your first son's boyfriend. They haven't got married yet, but they adopted a boy together. If you cannot reach to your son, then you can ask Mike for help, he is a nurse at Sunnyvale medical center."
   }
 
 

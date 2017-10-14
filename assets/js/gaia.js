@@ -121,30 +121,54 @@ $(document).ready(function () {
     });
 
 
-
     $("#imgTestimonial1").click(function () {
         $.getJSON("data.json", function (jd) {
             console.log(jd)
-            $("#testimonial1").html("<p>Name:" + jd["testimonial1"]["name"] + "</p>" +
-                "<p>Age:" + jd["testimonial1"]["age"] + "</p>" +
-                "<p>gender:" + jd["testimonial1"]["gender"] + "</p>");
-            console.log("get testimonial1");
-            $("#datastage").html();
-            console.log("get Json2");
-            $("#datastage").html();
-            console.log("get Json3");
+            $("#member1").html("<dl><dt>Relationship</dt><dd><b>" + jd["testimonial1"]["relationship"] + "</b></dd><dt>Name</dt><dd>" + jd["testimonial1"]["name"] + "</dd><dt>Age</dt><dd>" + jd["testimonial1"]["age"] + "</dd><dt>Phone</dt><dd>" + jd["testimonial1"]["phone"] + "</dd><dt>Address</dt><dd>" +
+                jd["testimonial1"]["address"] + "</dd></dl><p>" + jd["testimonial1"]["note"] + "</p>");
+        });
+    });
 
-            // var member = []
+    $("#imgTestimonial2").click(function () {
+        $.getJSON("data.json", function (jd) {
+            console.log(jd)
+            $("#member2").html("<dl><dt>Relationship</dt><dd><b>" + jd["testimonial2"]["relationship"] + "</b></dd><dt>Name</dt><dd>" + jd["testimonial2"]["name"] + "</dd><dt>Age</dt><dd>" + jd["testimonial2"]["age"] + "</dd><dt>Phone</dt><dd>" + jd["testimonial2"]["phone"] + "</dd><dt>Address</dt><dd>" +
+                jd["testimonial2"]["address"] + "</dd></dl><p>" + jd["testimonial2"]["note"] + "</p>");
+        });
+    });
 
+    $("#imgTestimonial3").click(function () {
+        $.getJSON("data.json", function (jd) {
+            console.log(jd)
+            $("#member3").html("<dl><dt>Relationship</dt><dd><b>" + jd["testimonial3"]["relationship"] + "</b></dd><dt>Name</dt><dd>" + jd["testimonial3"]["name"] + "</dd><dt>Age</dt><dd>" + jd["testimonial3"]["age"] + "</dd><dt>Phone</dt><dd>" + jd["testimonial3"]["phone"] + "</dd><dt>Address</dt><dd>" +
+                jd["testimonial3"]["address"] + "</dd></dl><p>" + jd["testimonial3"]["note"] + "</p>");
         });
     });
 
 
 
-
-
-
 });
+
+
+var searchDBStrings =[
+    "son",
+    "family",
+    "doctor",
+    "medical center",
+    "neighbour",
+    "friend",
+    "nurse",
+    "insurance",
+    "police",
+    "github.com/jaysalvat/jquery.facedetection"
+] ;
+
+$("#autocomplete-1").autocomplete({
+    source: searchDBStrings
+});
+
+
+
 
 
 
